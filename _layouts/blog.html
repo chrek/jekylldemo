@@ -1,0 +1,3 @@
+{% for tag in site.tags %}
+<a href="/tag/{{ tag }}" class="tag" title="{{ site.data.tagDescriptions[tag] }}">{{ tag }}</a>
+{% endfor %}

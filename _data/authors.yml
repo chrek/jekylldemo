@@ -1,0 +1,38 @@
+Adams Corona:
+  position: COVID-19 Chief Executive
+  location: NHHS
+  image: adamscorona.jpg
+  bio: Adams is an expert in the diagnosis and treatment of diseases caused by microorganisms. During this COVID‑19 pandemic era, he told his collegues that he's now a student learning to deal with Coronavirus disease. <b>An Expert or a Student?</b>.
+  socials:
+    - type: Twitter
+      url: https://twitter.com/adamscorona
+      class: fa fa-twitter 
+    - type: GitHub
+      class: fa fa-github 
+      url: https://github.com/adamscorona
+    - type: Facebook
+      class: fa fa-facebook 
+      url: https://facebook.com/adamscorona
+    - type: LinkedIn
+      class: fa fa-linkedin 
+      url: https://linkedin.com/adamscorona
+
+Amanda Davis:
+  position: Research Fellow
+  location: World Peace Univ
+  image: amandadavis.jpg
+  bio: Amanda is a Research Fellow but says she's a Primary School pupil
+   learning Hébreu and Arabe at <b>WPUniv</b> in order to resolve Israeli–Palestinian conflict. <b>Good Luck Amanda!</b>
+  socials:
+    - type: Twitter
+      url: https://twitter.com/amandadavis
+      class: fa fa-twitter 
+    - type: GitHub
+      url: https://github.com/amandadavis
+      class: fa fa-github
+    - type: Facebook
+      class: fa fa-facebook 
+      url: https://facebook.com/amandadavis
+    - type: LinkedIn
+      class: fa fa-linkedin 
+      url: https://linkedin.com/amandadavis

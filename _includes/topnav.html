@@ -1,0 +1,12 @@
+<nav>
+  <ul>
+    {% assign pageTitle = {{page.title}} %}
+    {% for item in site.data.topnav %}
+    <li {% if pageTitle == item.name %} class="activelistitem" {% endif %}>
+      <a href="{{ site.baseurl }}{{ item.link }} " {% if pageTitle == item.name %} class="activelink" {% endif %}>
+        {{ item.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>  
+</nav>

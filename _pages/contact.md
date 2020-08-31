@@ -1,10 +1,14 @@
 ---
-layout: page
-title: Resume
-permalink: /resume/
+layout: default
+title: Contact
+permalink: /contact
 ---
 
-This is the Resume details page.
+This is a Contact page.
+
+<form>
+
+</form>
 
 You can contact me using the following phone number: +33 612345678
 

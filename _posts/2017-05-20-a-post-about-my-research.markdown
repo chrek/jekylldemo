@@ -2,6 +2,8 @@
 layout: post
 title:  "A Post about My Research"
 date:   2017-05-20 20:30:35 +0200
+author: Amanda Davis
+tags: [dev, jekyll]
 categories: 
 ---
 Here's the text of my second post! I'll put two pound signs in front of the text below to make it into a heading:

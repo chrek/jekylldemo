@@ -24,9 +24,28 @@ github_username:  chrek
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
-gems:
+# theme: jekyll-theme-slate
+# theme: minima # replace minima with null
+theme: null
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+include: [_pages]
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      is_post: false
+      layout: "default"
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      is_post: true
+      layout: "post"
+      permalink: /blog/:categories/:title/
